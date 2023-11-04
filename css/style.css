@@ -1,0 +1,235 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 1170px;
+  margin: auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+ a{
+  text-decoration: none;
+ }
+ul,li{
+  list-style: none;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+/* NAV START */
+
+nav{
+  background-color: #02918c;
+}
+.logo{
+  width:30%;
+ 
+}
+.menu{
+  width:70% ;
+  text-align: right; 
+  justify-content: end;
+  /* problemmmm */
+}
+.menu ul li a{
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: white;
+  padding: 26px 25px;
+  display: block;
+}
+nav .row{
+  align-items: center;
+}
+/* NAVVVV ENDDD */
+
+/* BANNERRRRR START */
+#banner{
+  background-image: url(../image/bannerrr.jpg);
+  height: 729px;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner_items{
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+#banner .row {
+ align-items: center;
+ height: 729px;;
+}
+.banner_items h3{
+  color: white;
+  font-weight: 400;
+font-size: 30px;
+}
+.banner_items h1{
+  color: white;
+  font-weight: 800;
+font-size: 68px;
+letter-spacing:25px ;
+text-transform: uppercase;
+}
+.banner_items p{
+  color: white;
+  font-weight: 400;
+font-size: 18px;
+}
+
+.banner_items img{
+  margin:px;
+  
+}
+.banner_items a{
+  color:#181c16 ;
+font-size: 14px;
+font-weight: 800;
+  background-color: #cfc91d;
+  padding: 19px 52px;
+  display: inline-block;
+}
+/* BANNER ENDDDDDDDDDDDD */
+
+
+
+
+
+ /* ABOUT STARTTTTTTTTT */
+
+ .heading h2{
+  color: #6abbb4;
+  font-weight: 400px;
+  font-size: 46px;
+  text-transform: uppercase;
+  
+}
+#about .heading{
+  text-align: center;
+  
+}
+
+#about{
+  margin: 98px 0;
+
+}
+.container span{
+  color:#7e8287 ;
+  font-weight: ;
+  font-size: 23px;
+}
+.container p{
+  color: #7e8287;
+  line-height: 30px;
+}
+ .row .about_card{
+  width: 25%;
+  text-align: center;
+  color:#7e8287;
+margin-top: 81px;
+border-right: 1px solid #cccc;
+padding: 36px;
+ }
+
+
+ .about_card span{
+  color:#6abbb4;
+  font-size: 33px;
+ }
+
+ .about_card h4{
+  margin: 29px;
+  font-weight: 800;
+  font-size: 16px;
+ }
+
+ .row .about_card:nth-child(4){
+  border: none;
+ }
+
+ /* ABOUT CARD ENDDDD */
+
+
+ /* SERVICES STARTTTTTTTTTT */
+
+#services{
+  background-image: url(../image/services.jpg);
+  background-position: center;
+  background-size: cover;
+}
+ #services .heading{
+  width: 50%;
+  margin: 11px;
+  text-align: left;
+ }
+ .heading .services_card{
+  width: 50%;
+  margin-top: 53px;
+ }
+  .row .services_card h4{
+  font-weight: 800;
+  font-size: 16px;
+  color: #7e8287;
+  padding: 11px 0;
+ }
+
+ .row .services_card span i{
+  color: #6abbb4;
+ }
+
+ /* SERVICE ENDDDDDD */
+
+
+ /* WORKKK STARTTTTT */
+
+ #work .heading{
+  text-align: center;
+ }
+
+ #work .heading p{
+  color: #7e8287;
+ }
+
+ #work .heading{
+  padding: 60px 0;
+
+ }
+
+ .pic{
+  width: 25%;
+  position: relative;
+ 
+ }
+ .pic img{
+  width: 100%;
+  display: block;
+ }
+
+ .pic .overly{
+  position: absolute;
+  background-color: red;
+inset: 20px 28px;
+ line-height: 30px;
+ background-color: #02918c92;
+text-align: center;
+padding: 20px;
+color: white;
+opacity: 0;
+  visibility: hidden;
+  margin-left: -999;
+  transition: 1s;
+ }
+
+ .pic:hover .overly{
+  opacity: 1;
+  visibility: visible;
+  margin-top: 0;
+ }
